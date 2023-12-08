@@ -23,6 +23,6 @@ options:
   -h, --help  show this help message and exit
   -s, --save  Save results to file
 ```
-It will download [SecLists](https://github.com/danielmiessler/SecLists) to your `~/.local/share/scanner/SecLists/`
+It will download [SecLists](https://github.com/danielmiessler/SecLists) to your `~/.local/share/autoscan/SecLists/`
 
 
