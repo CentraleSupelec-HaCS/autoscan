@@ -109,10 +109,10 @@ def parse_args():
     parser = argparse.ArgumentParser(description="autoscanner - Automated recon tool")
     parser.add_argument("target", help="Target IP address")
     parser.add_argument("-s", "--save", help="Save results to file", action="store_true")
-    parser.add_argument("-O", "--no-os", help="Save results to file", action="store_false")
-    parser.add_argument("-A", "--no-app", help="Save results to file", action="store_false")
-    parser.add_argument("-P", "--no-port", help="Save results to file", action="store_false")
-    parser.add_argument("-f", "--fuzz", help="Save results to file", action="store_true")
+    parser.add_argument("-O", "--no-os", help="Doesn't perform OS Scan", action="store_false")
+    parser.add_argument("-A", "--no-app", help="Doesn't perform App/Stack Scan", action="store_false")
+    parser.add_argument("-P", "--no-port", help="Doesn't perform Port Scan", action="store_false")
+    parser.add_argument("-f", "--fuzz", help="Lauch gobuster fuzzing and generate fuzz file", action="store_true")
     args = parser.parse_args()
     return args
 

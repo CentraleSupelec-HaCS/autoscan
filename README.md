@@ -22,10 +22,10 @@ positional arguments:
 options:
   -h, --help     show this help message and exit
   -s, --save     Save results to file
-  -O, --no-os    Save results to file
-  -A, --no-app   Save results to file
-  -P, --no-port  Save results to file
-  -f, --fuzz     Save results to file
+  -O, --no-os    Doesn't perform OS Scan
+  -A, --no-app   Doesn't perform App/Stack Scan
+  -P, --no-port  Doesn't perform Port Scan
+  -f, --fuzz     Lauch gobuster fuzzing and generate fuzz file
 ```
 It will download [SecLists](https://github.com/danielmiessler/SecLists) to your `~/.local/share/autoscan/SecLists/`
 
