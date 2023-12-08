@@ -106,7 +106,7 @@ def get_wappalyzer(target, save=False):
     return results
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="scanner")
+    parser = argparse.ArgumentParser(description="autoscanner - Automated recon tool")
     parser.add_argument("target", help="Target IP address")
     parser.add_argument("-s", "--save", help="Save results to file", action="store_true")
     parser.add_argument("-O", "--no-os", help="Save results to file", action="store_false")

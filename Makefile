@@ -1,3 +1,3 @@
 install:
-	cp scanner.py /usr/local/bin/scanner
-	chmod +x /usr/local/bin/scanner
+	cp autoscan.py /usr/local/bin/autoscanner
+	chmod +x /usr/local/bin/autoscanner
