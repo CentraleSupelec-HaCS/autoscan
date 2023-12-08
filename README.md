@@ -12,7 +12,7 @@ A simple automated script for scanning web-apps
 The script is to be run as root:
 
 ```txt
-usage: scanner.py [-h] [-s] target
+usage: autoscan [-h] [-s] target
 
 scanner
 
